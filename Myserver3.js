@@ -23,7 +23,6 @@ class Myserver3 extends htmlServer {
             .then((data) => { response.end(data) })
             .catch((err) => { response.end("error with info") })
 
-
     }
 
 }
